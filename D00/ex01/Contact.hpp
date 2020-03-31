@@ -8,7 +8,7 @@ class Contact
 public:
 	Contact(void);
 	~Contact(void);
-	int			index = 0;
+	int			index;
 	void		DisplayInfo(void);
 	std::string	firstName;
 	std::string	lastName;

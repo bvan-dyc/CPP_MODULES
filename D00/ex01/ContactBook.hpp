@@ -19,6 +19,6 @@ public:
 
 private:
 	Contact contacts[MAXCONTACTS];
-	unsigned int contactCount = 0;
+	unsigned int contactCount;
 	void DisplayField(std::string field);
 };

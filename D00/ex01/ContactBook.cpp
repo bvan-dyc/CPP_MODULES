@@ -56,7 +56,7 @@ void ContactBook::DisplayField(std::string field)
 	}
 }
 
-bool ContactBook::IsFull() {
+bool ContactBook::isFull() {
 	return (getBookSize() >= MAXCONTACTS);
 }
 
