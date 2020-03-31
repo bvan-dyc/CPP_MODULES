@@ -25,7 +25,7 @@ Contact ContactBook::GetContact(int index) {
 }
 
 void ContactBook::DisplayFullContact(int index) {
-	contacts[index].DisplayInfo();
+	contacts[index - 1].DisplayInfo();
 }
 
 void ContactBook::DisplayContactList()
