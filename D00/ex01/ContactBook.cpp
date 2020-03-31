@@ -17,14 +17,14 @@ void ContactBook::AddNewContact(Contact contact)
 	}
 }
 
-Contact ContactBook::GetContact(unsigned int index) {
+Contact ContactBook::GetContact(int index) {
 	if (index < getBookSize())
 		return (contacts[index]);
 	else
 		return(contacts[contactCount - 1]);
 }
 
-void ContactBook::DisplayFullContact(unsigned int index) {
+void ContactBook::DisplayFullContact(int index) {
 	contacts[index].DisplayInfo();
 }
 
@@ -60,6 +60,6 @@ bool ContactBook::isFull() {
 	return (getBookSize() >= MAXCONTACTS);
 }
 
-unsigned int ContactBook::getBookSize() {
+int ContactBook::getBookSize() {
 	return(contactCount);
 }

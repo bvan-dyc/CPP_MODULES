@@ -55,8 +55,8 @@ int main(void)
 		{
 			if (book.getBookSize() > 0)
 			{
-				unsigned int	index = 0;
-				char			buffer[512];
+				int		index = 0;
+				char	buffer[512];
 				book.DisplayContactList();
 				std::cout << "Input the index of the contact you want to display information of." << std::endl;
 				std::cin >> buffer;

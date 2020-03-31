@@ -10,15 +10,15 @@ class ContactBook
 public:
 	ContactBook(void);
 	~ContactBook(void);
-	Contact GetContact(unsigned int index);
+	Contact GetContact(int index);
 	void AddNewContact(Contact contact);
-	void DisplayFullContact(unsigned int index);
+	void DisplayFullContact(int index);
 	void DisplayContactList();
 	bool isFull();
-	unsigned int getBookSize();
+	int getBookSize();
 
 private:
 	Contact contacts[MAXCONTACTS];
-	unsigned int contactCount;
+	int contactCount;
 	void DisplayField(std::string field);
 };
