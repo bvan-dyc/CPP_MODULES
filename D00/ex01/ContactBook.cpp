@@ -25,7 +25,14 @@ Contact ContactBook::GetContact(int index) {
 }
 
 void ContactBook::DisplayFullContact(int index) {
-	contacts[index - 1].DisplayInfo();
+	if (index > 0 && index <= contactCount)
+	{
+		contacts[index - 1].DisplayInfo();
+	}
+	else
+	{
+		std::cout << "There is no contact at that index." << std::endl;
+	}
 }
 
 void ContactBook::DisplayContactList()
