@@ -1,0 +1,7 @@
+﻿  ClapTrap.cpp
+C:\Users\blais\source\repos\CPP - M03\ex02\ClapTrap.cpp(35,18): warning C4018: '>': signed/unsigned mismatch
+  FragTrap.cpp
+  ScavTrap.cpp
+  main.cpp
+  Generating Code...
+  ex02.vcxproj -> C:\Users\blais\source\repos\CPP - M03\x64\Debug\ex02.exe

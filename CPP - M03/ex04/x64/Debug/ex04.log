@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\blais\source\repos\CPP - M03\ex04\main.cpp(10,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ex04.vcxproj -> C:\Users\blais\source\repos\CPP - M03\x64\Debug\ex04.exe

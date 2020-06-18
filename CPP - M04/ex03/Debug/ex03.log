@@ -1,0 +1,36 @@
+﻿  AMateria.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,29): error C2061: syntax error: identifier 'AMateria'
+  Character.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\AMateria.h(20,29): error C2061: syntax error: identifier 'ICharacter'
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.cpp(11,25): error C2084: function 'Character::~Character(void)' already has a body
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.h(11): message : see previous definition of '{dtor}'
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.cpp(38,30): error C2660: 'AMateria::use': function does not take 1 arguments
+C:\Users\blais\source\repos\CPP - M04\ex03\AMateria.h(20,15): message : see declaration of 'AMateria::use'
+  Cure.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,29): error C2061: syntax error: identifier 'AMateria'
+  Ice.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,29): error C2061: syntax error: identifier 'AMateria'
+  main.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,29): error C2061: syntax error: identifier 'AMateria'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12): error C2259: 'Character': cannot instantiate abstract class
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.h(6): message : see declaration of 'Character'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12): message : due to following members:
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12): message : 'void ICharacter::equip(void)': is abstract
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10): message : see declaration of 'ICharacter::equip'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12,39): error C2259: 'Character': cannot instantiate abstract class
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.h(6): message : see declaration of 'Character'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12,39): message : due to following members:
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(12,39): message : 'void ICharacter::equip(void)': is abstract
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10): message : see declaration of 'ICharacter::equip'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(16,22): error C2660: 'ICharacter::equip': function does not take 1 arguments
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,15): message : see declaration of 'ICharacter::equip'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(18,22): error C2660: 'ICharacter::equip': function does not take 1 arguments
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,15): message : see declaration of 'ICharacter::equip'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(19): error C2259: 'Character': cannot instantiate abstract class
+C:\Users\blais\source\repos\CPP - M04\ex03\Character.h(6): message : see declaration of 'Character'
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(19): message : due to following members:
+C:\Users\blais\source\repos\CPP - M04\ex03\main.cpp(19): message : 'void ICharacter::equip(void)': is abstract
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10): message : see declaration of 'ICharacter::equip'
+  MateriaSource.cpp
+C:\Users\blais\source\repos\CPP - M04\ex03\ICharacter.h(10,29): error C2061: syntax error: identifier 'AMateria'
+  Generating Code...

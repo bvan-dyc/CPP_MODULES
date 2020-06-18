@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\blais\Documents\Projects\CPP-M01\ex02\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\blais\Documents\Projects\CPP-M01\ex02\main.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\blais\Documents\Projects\CPP-M01\ex02\main.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Zombie.cpp
+  ZombieEvent.cpp
+  Generating Code...
+  ex02.vcxproj -> C:\Users\blais\Documents\Projects\CPP-M01\Debug\ex02.exe

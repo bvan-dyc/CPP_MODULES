@@ -1,0 +1,10 @@
+﻿  main.cpp
+ScavTrap.obj : error LNK2005: "public: __cdecl ScavTrap::ScavTrap(class ScavTrap const &)" (??0ScavTrap@@QEAA@AEBV0@@Z) already defined in FragTrap.obj
+ScavTrap.obj : error LNK2005: "public: __cdecl ScavTrap::ScavTrap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0ScavTrap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in FragTrap.obj
+ScavTrap.obj : error LNK2005: "public: __cdecl ScavTrap::~ScavTrap(void)" (??1ScavTrap@@QEAA@XZ) already defined in FragTrap.obj
+ScavTrap.obj : error LNK2005: "public: class ScavTrap & __cdecl ScavTrap::operator=(class ScavTrap const &)" (??4ScavTrap@@QEAAAEAV0@AEBV0@@Z) already defined in FragTrap.obj
+ScavTrap.obj : error LNK2005: "public: void __cdecl ScavTrap::challengeNewcomer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?challengeNewcomer@ScavTrap@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in FragTrap.obj
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl FragTrap::FragTrap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0FragTrap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl FragTrap::~FragTrap(void)" (??1FragTrap@@QEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl FragTrap::vaulthunter_dot_exe(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?vaulthunter_dot_exe@FragTrap@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function main
+C:\Users\blais\source\repos\CPP - M03\x64\Debug\ex03.exe : fatal error LNK1120: 3 unresolved externals
